@@ -1,6 +1,6 @@
 function sendEmailMessage(msg) {
   var message = {
-    to: "12149097076@tmomail.net" + "," + "keeynlite@gmail.com" + "," +"12142353577@tmomail.net" + "," + "16823670648@tmomail.net" ,
+    to: "*****@tmomail.net" + "," + "******@gmail.com" + "," +"******@tmomail.net" + "," + "******@tmomail.net" ,
     subject: "CAMPBOWIE Winner selected",
     body: "< WINNERS > " + msg
   }
