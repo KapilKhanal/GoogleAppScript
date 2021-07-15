@@ -1,6 +1,6 @@
 function sendEmailMessage(msg) {
   var message = {
-    to: "keeynlite@gmail.com",
+    to: "12149097076@tmomail.net" + "," + "keeynlite@gmail.com" + "," +"12142353577@tmomail.net" + "," + "16823670648@tmomail.net" ,
     subject: "CAMPBOWIE Winner selected",
     body: "< WINNERS > " + msg
   }
@@ -58,19 +58,22 @@ Logger.log(values)
     random1 = Math.floor(Math.random()* (values.length));
     winner_1 = values[random1][1];
     phone_1 =  values[random1][2];
-  // Logger.log(winner_1)
+  Logger.log(winner_1);
+  Logger.log(phone_1);
     //console.log(values.length)
     values2 = values.splice(random1,1);
    
     random2 = Math.floor(Math.random()* (values2.length));
     winner_2 = values[random2][1];
     phone_2 =  values[random2][2];
- 
+ Logger.log(winner_2);
+  Logger.log(phone_2);
     values3 = values.splice(random2,1);
     random3 = Math.floor(Math.random()* (values3.length));
     winner_3 = values[random3][1];
     phone_3 =  values[random3][2];
-    
+    Logger.log(winner_3);
+     Logger.log(phone_3);
    // SpreadsheetApp.getActiveSpreadsheet().getRange('D2').setValue(winner_row[1])
    msg = 'The winner selected today for CAMPBOWIE are : \n ' + winner_1 +
    '   with phone-->' + phone_1 + ' AND \n ' + winner_2 +
